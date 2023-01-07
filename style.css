@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 30%;
+    display: grid;
+    margin: 100px;
+}
+
+#CountryInput {
+    border: none;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    outline: none;
+}
+#SearchBtn {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+}
+
+#ModalLabel {
+    text-align: center;
+}
+
+.modal-body img{
+    width: 100%;
+}
